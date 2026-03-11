@@ -1,0 +1,76 @@
+# PyZazz .gitignore
+
+# Development Documentation
+CLAUDE.md
+GEMINI.md
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+virtualenv/
+.virtualenv/
+pyenv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local Configuration
+config/local_*.json
+*.log
+*.tmp
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Coverage / test output
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Media Files (keep personal media out of repo)
+videos/*
+!videos/.gitkeep
+
+# Hardware / generated artifacts
+dmx_debug.log
+audio_debug.log
+=1.8.0
+visualization_controller_original_backup.py
+logo.jpeg.old

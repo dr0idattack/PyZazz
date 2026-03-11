@@ -1,0 +1,56 @@
+{
+  "lights": {
+    "par1": {
+      "name": "Par Light",
+      "type": "Par",
+      "address": 1,
+      "channels": {
+        "dimmer": 1,
+        "red": 2,
+        "green": 3,
+        "blue": 4
+      },
+      "max_intensity": 255,
+      "beat_pulse_enabled": true
+    },
+    "par2": {
+      "name": "Par Light 2",
+      "type": "Par",
+      "address": 7,
+      "channels": {
+        "dimmer": 7,
+        "red": 8,
+        "green": 9,
+        "blue": 10
+      },
+      "max_intensity": 255,
+      "beat_pulse_enabled": true
+    },
+    "wash1": {
+      "name": "Wash Light 1",
+      "type": "Wash",
+      "address": 13,
+      "channels": {
+        "dimmer": 13,
+        "red": 14,
+        "green": 15,
+        "blue": 16
+      },
+      "max_intensity": 255,
+      "beat_pulse_enabled": true
+    },
+    "wash2": {
+      "name": "Wash Light 2",
+      "type": "Wash",
+      "address": 20,
+      "channels": {
+        "dimmer": 20,
+        "red": 21,
+        "green": 22,
+        "blue": 23
+      },
+      "max_intensity": 255,
+      "beat_pulse_enabled": true
+    }
+  }
+}

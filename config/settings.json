@@ -1,0 +1,28 @@
+{
+  "audio": {
+    "sample_rate": 44100,
+    "chunk_size": 1024,
+    "beat_threshold": 0.1,
+    "input_device": "default"
+  },
+  "dmx": {
+    "port": "/dev/tty.usbserial-*",
+    "simulate_mode": true,
+    "universe_size": 512
+  },
+  "video": {
+    "fullscreen_display": 2,
+    "video_directory": "videos/",
+    "default_volume": 80
+  },
+  "ui": {
+    "theme": "dark",
+    "update_rate_fps": 20,
+    "show_debug_info": true
+  },
+  "song_sequence": [
+    "Pulse Demo",
+    "Wave Demo",
+    "Video Demo"
+  ]
+}

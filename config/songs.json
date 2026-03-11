@@ -1,0 +1,40 @@
+{
+  "songs": {
+    "Pulse Demo": {
+      "intensity": 220,
+      "reactivity_mode": "very_reactive",
+      "mic_sensitivity": 0.1,
+      "color_bias": "blue",
+      "secondary_color_bias": "white",
+      "video_path": "",
+      "notes": "Sample high-energy preset for simulator or live input.",
+      "media_mode": "visualization",
+      "random_color_percentage": 20,
+      "visualization_mode": "spiral"
+    },
+    "Wave Demo": {
+      "intensity": 180,
+      "reactivity_mode": "medium",
+      "mic_sensitivity": 0.1,
+      "color_bias": "green",
+      "secondary_color_bias": "purple",
+      "video_path": "",
+      "notes": "Sample medium preset using waveform visualization.",
+      "media_mode": "visualization",
+      "random_color_percentage": 35,
+      "visualization_mode": "waveform"
+    },
+    "Video Demo": {
+      "intensity": 200,
+      "reactivity_mode": "easy",
+      "mic_sensitivity": 0.15,
+      "color_bias": "orange",
+      "secondary_color_bias": "red",
+      "video_path": "",
+      "notes": "Assign a local media file after cloning to test ffplay output.",
+      "media_mode": "video",
+      "random_color_percentage": 15,
+      "visualization_mode": "none"
+    }
+  }
+}
